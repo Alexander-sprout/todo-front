@@ -1,11 +1,10 @@
-# Sanya Boilerplate
+# Todo ftontend
 
-## Версии пакетов
+# Перед запуском
+Создайте файл .env по образцу .env.example
 
-- React 18
-- ReactDom 18
 
 ## Команды запуска
-
 - `npm install`
-- `npm start` - запустить для разработки
+- `npm start`- запустить для разработки
+

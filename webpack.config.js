@@ -8,7 +8,7 @@ module.exports = {
     entry: path.resolve(__dirname, './src/index.tsx'), // точка входа, о которой говорилось ранее.
     mode: 'development',
     output: {
-        path: path.resolve(__dirname, './dist'),
+        path: path.join(__dirname, process.env.OUTPUT_DIR),
         filename: '[name].bundle.js',
     },
     plugins: [

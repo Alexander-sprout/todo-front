@@ -52,7 +52,7 @@ rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
 
 const Wrapper = styled.body`
     display:flex;
-    min-width:100vh;
+    min-width:100vw;
     min-height:100vh;
     justify-content:center;
     align-items:center;

@@ -15,7 +15,7 @@ export const TodoList = () => {
     return (
         <Container>
             <TodoForm />
-            {todo.map((item: Todo, index: Number) => {
+            {todo.map((item: Todo, index: number) => {
                 <Wrapper key={index}>  <TodoItem><TodoName>{item.name}</TodoName>  <DeleteButton onClick={() => {
                     dispatch(deleteAndGetTodo({ id: item.id.toString(), name: item.name }, { selectedCategoryId }))
                 }} >x</DeleteButton></TodoItem></Wrapper>
